@@ -3,4 +3,38 @@
     <string name="wisata">wisata</string>
     <string name="nama_place">Nama Place</string>
     <string name="lorem">Lorem</string>
+
+
+    <string-array name="data_name">
+        <item>Misool Raja Ampat</item>
+        <item>Spring Bambu</item>
+        <item>Danau Sentani</item>
+        <item>Puncak Cartenz</item>
+        <item>Bromo</item>
+        <item>Cikole Bandung</item>
+        <item>Menara Eiffel France</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>Ke Misool, berarti kamu sudah menyentuh Raja Ampat. Ya, dari sini perjalanan dan petualangan Indonesia Timur kamu bisa dimulai.</item>
+        <item>Sharma Springs bisa disebut sebagai vila paling unik di Bali. Seluruh bangunan didominasi oleh bambu yang kokoh. Mulai dari dinding hingga furnitur vila, terbuat dari bamboo</item>
+        <item>Danau Sentani memiliki luas 9.360 hektar dan berada antara Kota Jayapura dan Kabupaten Jayapura dan ada di ketinggian 75 mdpl. Kawasan Danau Sentani berada di bawah lereng Pegunungan Cagar Alam Cyclops.</item>
+        <item>Sebagai negara tropis, di kawasan timur Indonesia tepatnya di Puncak Cartenz, Papua terdapat salju abadi yang jadi satu-satunya tempat di Indonesia yang diselimuti salju</item>
+        <item>Penanjakan 1 merupakan lokasi terbaik untuk menyaksikan matahari terbit. Lokasi ini merupakan yang paling tinggi di antara bukit lainnya. </item>
+        <item>Terminal Wisata Grafika Cikole Lembang menyediakan Paket Outbound Bandung Training dan Event untuk perusahaan maupun instansi dengan jumlah minimal peserta 20 orang dan terdiri dari 3 paket Outbound.</item>
+        <item>menara di Barcelona, untuk Pameran Universal 1888, tapi para pihak yang bertanggung jawab di balai kota Barcelona menganggapnya aneh dan mahal, dan tidak cocok dengan kota itu. Setelah penolakan Rencana Barcelona</item>
+    </string-array>
+
+    <string-array name="image">
+        <item>@drawable/rajaampat</item>
+        <item>@drawable/spring</item>
+        <item>@drawable/sentani</item>
+        <item>@drawable/papua</item>
+        <item>@drawable/bromo</item>
+        <item>@drawable/cikole</item>
+        <item>@drawable/france</item>
+    </string-array>
+
 </resources>
+
+
