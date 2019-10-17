@@ -28,4 +28,25 @@ public class MainActivity extends AppCompatActivity {
         prepare();
         additem();
     }
+
+    private  void additem(){
+        places =new ArrayList<>();
+
+        for (int i = 0; i < dataName.length; i++){
+            Attaraction place = new Attaraction();
+            place.setImage(dataPhoto.getResourceId(i,-1));
+            place.setPlaceName(dataName[i]);
+            place.setDescription(dataDescription[i]);
+            places.add(place);
+
+        }
+        adapter.setAttaraction(places);
+    }
+
+    private void prepare(){
+        dataName = getResources().getStringArray((R.array.data_name));
+        dataDescription = getResources().getStringArray(R.array.deskripsi);
+        dataPhoto = getResources().obtainTypedArray(R.array.image);
+    }
 }
+

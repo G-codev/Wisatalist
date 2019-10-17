@@ -15,8 +15,11 @@ public class Adapter extends BaseAdapter {
     private Context context;
     private ArrayList<Attaraction> places;
     public void setAttaraction(ArrayList<Attaraction> places){
+
         this.places = places;
     }
+
+
     public Adapter(Context context) {
         this.context = context;
     }

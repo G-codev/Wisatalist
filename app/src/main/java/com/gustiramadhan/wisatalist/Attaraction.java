@@ -10,7 +10,9 @@ public class Attaraction {
         this.placeName = placeName;
         this.description = description;
     }
+    public  Attaraction(){
 
+    }
     public int getImage() {
         return image;
     }
