@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new Adapter(this);
         ListView listView = findViewById(R.id.lv_list);
+
         listView.setAdapter(adapter);
+
 
         prepare();
         additem();

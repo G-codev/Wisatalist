@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Adapter extends BaseAdapter {
     private Context context;
-    private ArrayList<Attaraction> places;
+    private ArrayList<Attaraction> places= new ArrayList<>();
     public void setAttaraction(ArrayList<Attaraction> places){
 
         this.places = places;
